@@ -1,0 +1,260 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60px;
+    /* background-color: #0f1111; */
+    background-color: #01453e;
+    color: white;
+}
+
+/* logo */
+
+.nav-logo {
+    height: 50px;
+    width: 113px;
+}
+
+.logo {
+    background-image: url(photos/amazon_logo.png);
+    background-size: cover;
+    padding-bottom: 5px;
+    /* margin: 4px; */
+    height: 50px;
+    width: 113px;
+}
+
+.deliver {
+    padding: 5px;
+}
+
+.border {
+    border: 1px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+/* box2 */
+
+.text1 {
+    color: #cccccc;
+    font-size: .8rem;
+    margin-left: 15px;
+}
+
+.map-icon {
+    display: flex;
+    align-items: center;
+}
+
+.text2 {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(251, 217, 217);
+    margin-left: 10px;
+    height: 40px;
+    width: 750px;
+    border-radius: 4px;
+}
+
+.search-select {
+    background-color: #ececec;
+    /* color: rgb(42, 42, 42); */
+    color: #656565;
+    width: 55px;
+    padding-right: 5px;
+    text-align: center;
+    border: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.search-select:hover {
+    background-color: #d9d8d8;
+    color: black;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #febd68;
+    color: #0f1111;
+    width: 45px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.search-icon:hover {
+    background-color: #f1ac50;
+}
+
+.language {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    width: 40px;
+}
+
+/* box 4 */
+
+.nav-signin, .nav-return{
+    padding: 5px;
+}
+
+span {
+    font-size: 0.7rem;
+}
+
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* box6 */
+
+.nav-cart i{
+    font-size: 30px;
+}
+
+.nav-cart {
+    padding: 5px;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* panel */
+
+.panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #185851;
+    color: white;
+    height: 40px;
+}
+
+.all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 36px;
+    /* padding: 8px 10px; */
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.panel-options {
+    display: flex;
+    width: 77%;
+    font-size: 0.85rem;
+}
+
+.panel-options p {
+    align-items: center;
+    margin: 6px 0px;
+    padding: 10px;
+    /* height: 36px; */
+}
+
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+    align-items: center;
+    margin: 6px 2px;
+    padding: 5px 8px;
+}
+
+/* hero-section */
+
+.hero-section {
+    background-image: url(photos/hero-image.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 300px;
+    background-size: cover;
+}
+
+.hero-message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 95%;
+    margin-bottom: 25px;
+}
+
+.hero-message a {
+    color: #007185;
+    font-size: 0.85rem;
+}
+
+.hero-message a:hover {
+    cursor: pointer;
+    color: rgb(213, 45, 45);
+    text-decoration: underline;
+}
+
+/* shop-section */
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box {
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box:hover {
+    .box-content a{
+        color: rgb(213, 45, 45);
+    }
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content a {
+    text-decoration: none;
+    margin: 5px 0px;
+}
+
+.box-img {
+    height: 300px;
+    background-size: cover;
+    margin: 10px 0px 20px;
+}
